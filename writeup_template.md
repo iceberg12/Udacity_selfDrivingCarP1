@@ -60,6 +60,4 @@ Another shortcoming could be the distorted image due to camera position, which c
 
 ##3. Suggest possible improvements to your pipeline
 
-A possible improvement would be using machine learning to learn the edge distinction on different road condition.
-
-Another potential improvement could be to ...
+A possible improvement would be using machine learning to learn abnormal camera images so that we can deal differently with each type of image abnormality.
