@@ -42,7 +42,7 @@ My pipeline consisted of the following steps.
 
 5. Use Hough transform to detect line. Basically it transforms the lines in original image to points in polar coordinate, and counts the numbers of sin/cosin curves going through each point. rho can be 1/2, while threshold, min_line_length and max_line_gap affects the performance in removing short, unconnected lines.
 
-  In order to draw a single line on the left and right lanes, I modified the draw_lines() function. The slopes of lines detected by Hough transform are looped through, checking if they are negative or positive to know if they should belong to left or right lanes. After that, the slope and intercept of left and right lanes are averaged according to their members. Each single lane is drawn based on the intersections of each extended line with the region of interest. Furthermore, I apply a filter in slope range (20, 70) deg to remove unnecessary horizontal detected lines which are noise. This greatly makes my line detection robust.
+  The output from Hough might be still many short, unconnected lines. In order to draw a single line on the left and right lanes, I modified the draw_lines() function. The slopes of lines detected by Hough transform are looped through, checking if they are negative or positive to know if they should belong to left or right lanes. After that, the slope and intercept of left and right lanes are averaged according to their members. Each single lane is drawn based on the intersections of each extended line with the region of interest. Furthermore, I apply a filter in slope range (20, 70) deg to remove unnecessary horizontal detected lines which are noise. This greatly makes my line detection robust.
 
   ![alt text][image4]
 
