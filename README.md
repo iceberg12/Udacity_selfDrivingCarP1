@@ -50,7 +50,7 @@ My pipeline consisted of the following steps.
 
   ![alt text][image5]
 
-##2. Identify potential shortcomings with your current pipeline
+##2. Identify potential shortcomings with current pipeline
 
 
 One potential shortcoming would be what would happen when the color distinction between the lane and the road is not clear. This happens due to weather condition, 
@@ -58,6 +58,6 @@ One potential shortcoming would be what would happen when the color distinction 
 Another shortcoming could be the distorted image due to camera position, which can happen at any time. It would make the region of interest not interesting anymore.
 
 
-##3. Suggest possible improvements to your pipeline
+##3. Suggest possible improvements to pipeline
 
 A possible improvement would be using machine learning to learn abnormal camera images so that we can deal differently with each type of image abnormality.
