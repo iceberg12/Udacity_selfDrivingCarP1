@@ -14,14 +14,11 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./test_images/image1.png "1"
-
 [image2]: ./test_images/image2.png "2"
-
 [image3]: ./test_images/image3.png "3"
-
 [image4]: ./test_images/image4.png "4"
-
 [image5]: ./test_images/image5.png "5"
+
 ---
 
 ### Reflection
